@@ -1,0 +1,12 @@
+---index.php
+ Front end part of the form is done in index.php file.
+
+ ---insert.php
+ 1- firtsly we made a connection with the fronend part of   the form using mysqli_connect
+ 2 - if given condition is false it shows error 
+ 3 - Taking all 5 values from the form data(input)
+ 4 - Performing insert query execution 
+ 5 - if query execution true then data will be stored in database, otherwise it shows error
+
+ --- data.php
+ 6 - In next step we can get data of user using email id from data.php file
